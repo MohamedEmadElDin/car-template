@@ -1,0 +1,221 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: #00001f;
+}
+
+.main-header{
+    background: #00001f;
+}
+
+.main-header div {
+    display: inline-block;
+}
+
+.main-header__brand{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.main-nav{
+    display: inline-block;
+    width: calc(100% - 50%);
+    text-align: right;
+    vertical-align: middle;
+}
+
+.main-nav__items {
+    margin: 0;
+    padding:0;
+    list-style: none;
+}
+
+.main-nav__item {
+    display: inline-block;
+    padding: 16px ;
+    vertical-align: middle;
+}
+
+.main-nav__item a{ 
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 0 10px;
+
+}
+
+.main-nav__item a:hover,
+.main-nav__item a.active {
+    color: #00001f;
+    background-color: white;
+    border-radius: 8px;
+    padding:8px;
+}
+
+.auth{
+    display: inline-block;
+    width: calc(100% - 60%);
+    text-align: right;
+}
+
+.user-logins{
+     margin: 0;
+     padding: 0;
+     list-style: none;
+}
+
+.user-login {
+    display: inline-block;
+    padding: 16px;
+}
+
+.user-login a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 0 5px;
+    font-weight: bold;
+}
+
+.main-nav__item--cta {
+    background-color: #1d1de9;
+    border-radius: 8px;
+    color: white;
+    padding: 8px;
+}
+
+#main-section{
+    background: url(./images/background.jpg);
+    background-size: cover;
+    background-position:left 10% top 25%;
+    background-repeat: no-repeat;
+    height: 500px;
+    position: relative;
+    padding: 10%;
+}
+
+.main-tile{
+    color: white;
+    text-align: center;
+    position: absolute;
+    top:20%;
+    left:35%
+}
+
+.section-title{
+    text-align: center;
+    color: white;
+}
+
+.plan__list {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.plan{
+    display: inline-block;
+    vertical-align: middle;
+    width: 30%;
+    margin: 10px;
+    background: white;
+    color:#00001f;
+}
+
+.plan__image__Maintaince{
+    background-image: url(./images/maintaince.jpeg);
+    background-size: cover;
+    width: 100%;
+    height:  240px;
+}
+
+.plan__image__Renting{
+    background-image: url(./images/renting.jpg);
+    background-size: cover;
+    background-position: right 5%;
+    width: 100%;
+    height:  240px;
+}
+
+.plan__image__Buy {
+    background-image: url(./images/buy.jpg);
+    background-size: cover;
+    background-position: right 5%;
+    width: 100%;
+    height:  240px;
+}
+
+.button {
+    color: white;
+    font-family: inherit;
+    background: #00001f;
+    border: 1px solid  #00001f;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+
+footer{
+    /* width: 80%; */
+    margin: 0 auto;
+    background: black;
+}
+
+
+.footer-data{
+   display: inline-block;
+   vertical-align: middle;
+   text-align: center;
+   width: 30%;
+   margin: 50px 16px;
+   margin-bottom: 10px;
+}
+
+.footer-logo{
+    max-width: 30%;
+    display: inline-block;
+}
+
+.conatcts {
+    color: white;
+}
+
+.social-Media{
+    color: white;
+}
+
+.contacts__list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.contacts__list-item {
+    color: white;
+    font-family: inherit;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+
+.social-Media__list{
+    color: white;
+    list-style: none;
+}
+
+
+.social-Media__item{
+    color: white;
+    font-family: inherit;
+    font-weight: bold;
+    margin: 5px 0;
+    text-align: center;
+}
